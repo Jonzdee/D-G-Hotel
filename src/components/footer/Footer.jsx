@@ -11,13 +11,14 @@ const Footer = () => {
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
         >
-          <span className="text-teal-400">Free</span> until you're ready to
-          launch
+          <span className="text-teal-400">SUBSCRIBE</span>  TO OUR NEWSLETTER! <br />
+        <span className="text-lg"> Never Miss Anything From D&G Hotel By Signing Up To Our Newsletter.</span>
+
         </h1>
         <div>
           <input
             type="text"
-            placeholder="Enter Your ph.no"
+            placeholder="ENTER YOUR EMAIL"
             className="text-gray-800
            sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
           />
@@ -25,7 +26,7 @@ const Footer = () => {
             className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
            rounded-md text-white md:w-auto w-full"
           >
-            Request Code
+            SUBMIT
           </button>
         </div>
       </div>
