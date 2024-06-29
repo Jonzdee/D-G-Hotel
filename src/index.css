@@ -34,3 +34,69 @@
     @apply bg-white text-[#0a0a0a];
   }
 }
+
+
+/* service */
+.btn-half {
+  @apply cursor-pointer bg-custom-gold z-0 inline-block relative;
+}
+.btn-half span {
+  @apply text-custom-white block pl-0 pr-6 uppercase font-semibold;
+  transform: scaleX(0.9);
+  transform-origin: center left;
+  transition: color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+.btn-half em {
+  position: absolute;
+  height: 1px;
+  background: #fff;
+  width: 15%;
+  right: 23px;
+  top: 50%;
+  transform: scaleX(0.25);
+  transform-origin: center right;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.btn-half:before,
+.btn-half:after {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 50%;
+  width: 0;
+  position: absolute;
+  transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.btn-half:before {
+  top: 0;
+  left: 0;
+  right: auto;
+}
+.btn-half:after {
+  bottom: 0;
+  right: 0;
+  left: auto;
+}
+.btn-half.site-button:hover {
+  background-color: #262423;
+}
+.btn-half:hover:before {
+  width: 100%;
+  right: 0;
+  left: auto;
+}
+.btn-half:hover:after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+.btn-half:hover span {
+  color: #fff;
+}
+.btn-half:hover em {
+  background: #fff;
+  transform: scaleX(1);
+}
+

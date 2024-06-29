@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 //context
 import {RoomContext} from '../context/RoomContext'; 
 //components
-import Room from '../components/Room';	
+import Room from './Room';	
 // loader
 import { SpinnerDotted } from 'spinners-react';
 

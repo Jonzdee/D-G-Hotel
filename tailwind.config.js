@@ -28,6 +28,22 @@ module.exports = {
       backgroundImage: {
         room: "url('./assets/img/room.jpg')",
       },
+      backgroundColor: {
+        'custom-gold': '#c19b76',
+      },
+      textColor: {
+        'custom-gold': '#c19b76',
+        'custom-white': '#fff',
+      },
+      keyframes: {
+        'scale-x': {
+          '0%': { transform: 'scaleX(0.9)' },
+          '100%': { transform: 'scaleX(1)' },
+        },
+      },
+      animation: {
+        'scale-x': 'scale-x 0.3s ease',
+      },
     },
   },
   plugins: [],
