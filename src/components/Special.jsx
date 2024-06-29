@@ -4,11 +4,8 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 //import required modules
-import {EffectFade, Autoplay} from 'swiper';
-//images
-import Img1 from '../assets/img/heroSlider/1.jpg'
-import Img2 from '../assets/img/heroSlider/2.jpg'
-import Img3 from '../assets/img/heroSlider/3.jpg'
+
+//images'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -75,7 +72,7 @@ const ServiceBox = ({ service }) => (
 const OurSpecialization = () => (
   <Swiper>
     <section className="relative py-20 bg-black bg-opacity-60">
-    <div className="absolute inset-0 bg-[url('../assets/img/rooms/1.jpg')] bg-cover"></div>
+    <div className="absolute inset-0 bg-[url('./assets/img/rooms/1.jpg')] bg-cover"></div>
     <div className="container mx-auto relative z-10">
       <div className="mb-10">
         <h2 className="text-white text-3xl font-bold mb-2" data-title="Specialization">Our Specialization</h2>

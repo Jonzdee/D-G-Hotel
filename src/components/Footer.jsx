@@ -1,6 +1,6 @@
 import React from 'react';
 //Logo
-import LogoWhite from '../assets/img/logo-white.svg';	
+
 
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
       {/* logo*/}
       <a href="/">
       <img 
-      src={LogoWhite}
+      src={''}
       alt=''
       />
       </a>
