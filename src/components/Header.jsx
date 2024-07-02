@@ -18,7 +18,7 @@ const Header = () => {
 lg:flex-row lg:justify-between lg:gap-y-0">
   {/* logo */}
   <a href='/'>
-  {header ?  (<img className='w-[160px]' src={LogoDark} alt=''/>) : (<img className='w-[160px]' src={LogoWhite}  alt=''/> )} 
+  {header ?  (<img className='w-[160px]' src={''} alt=''/>) : (<img className='w-[160px]' src={''}  alt=''/> )} 
   </a>
   {/* nav */}
   <nav className={`${header ? 'text-primary' : 'text-white'} flex 

@@ -4,11 +4,8 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 //import required modules
-import {EffectFade, Autoplay} from 'swiper';
-//images
-import Img1 from '../assets/img/heroSlider/1.jpg'
-import Img2 from '../assets/img/heroSlider/2.jpg'
-import Img3 from '../assets/img/heroSlider/3.jpg'
+
+//images'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -56,7 +53,7 @@ const services = [
 
 const CounterBox = ({ counter }) => (
   <div className="mb-8">
-    <h2 className="text-blue-600 text-4xl font-bold mb-2">
+    <h2 className="text-white text-4xl font-bold mb-2">
       <span className="counter" data-number={counter.number}>{counter.number}</span>+
     </h2>
     <h5 className="text-white">{counter.label}</h5>
@@ -65,7 +62,7 @@ const CounterBox = ({ counter }) => (
 
 const ServiceBox = ({ service }) => (
   <div className="p-5 border text-center border-white bg-opacity-25 bg-black hover:bg-blue-800 transition duration-300">
-    <div className="text-blue-600 text-4xl mb-4 ">
+    <div className="text-white text-4xl mb-4 ">
     <FontAwesomeIcon icon={['fa', service.icon]} />
     </div>
     <h4 className="text-white">{service.label}</h4>
@@ -75,11 +72,11 @@ const ServiceBox = ({ service }) => (
 const OurSpecialization = () => (
   <Swiper>
     <section className="relative py-20 bg-black bg-opacity-60">
-    <div className="absolute inset-0 bg-[url('../assets/img/rooms/1.jpg')] bg-cover"></div>
+    <div className="absolute inset-0 bg-[url('./assets/img/rooms/1.jpg')] bg-cover"></div>
     <div className="container mx-auto relative z-10">
       <div className="mb-10">
         <h2 className="text-white text-3xl font-bold mb-2" data-title="Specialization">Our Specialization</h2>
-        <div className="w-20 h-1 bg-blue-600"></div>
+        <div className="w-20 h-1 bg-white"></div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
