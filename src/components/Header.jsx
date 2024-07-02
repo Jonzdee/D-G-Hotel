@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
 //logo 
 import LogoWhite from '../assets/img/logo-white.svg'
 import LogoDark from '../assets/img/logo-dark.svg'
@@ -25,13 +26,13 @@ lg:flex-row lg:justify-between lg:gap-y-0">
   gap-x-4 font-tertiary tracking-[3px] text-[15px] items-center uppercase lg:gap-x-8 `}>
     <a href='/' className='hover:text-accent transition'>
     Home</a>
-    <a href='/' className='hover:text-accent transition'>
+    <a href='/RoomDetails' className='hover:text-accent transition'>
     Rooms</a>
-    <a href='/' className='hover:text-accent transition'>
+    <a href='/Restaurant' className='hover:text-accent transition'>
     Restaurant</a>
-    <a href='/' className='hover:text-accent transition'>
+    <a href='/Spa' className='hover:text-accent transition'>
     Spa</a>
-    <a href='/' className='hover:text-accent transition'>
+    <a href='/Contact' className='hover:text-accent transition'>
     Contact</a>
   </nav>
 </div>
