@@ -1,9 +1,9 @@
 import React from 'react';
 // rooms images
-import Room1Img from './assets/img/rooms/1.jpg';
-import Room1ImgLg from './assets/img/rooms/1-lg.jpg';
-import Room2Img from './assets/img/rooms/2.jpg';
-import Room2ImgLg from './assets/img/rooms/2-lg.jpg';
+import Room1Img from "../src/assets/img/rooms/1.JPG";
+import Room1ImgLg from "../src/assets/img/rooms/1-lg.JPG";
+import Room2Img from "../src/assets/img/rooms/2.JPG";
+import Room2ImgLg from './assets/img/rooms/2-lg.JPG';
 import Room3Img from './assets/img/rooms/3.png';
 import Room3ImgLg from './assets/img/rooms/3-lg.png';
 import Room4Img from './assets/img/rooms/4.png';
